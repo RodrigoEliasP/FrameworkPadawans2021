@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/todo.css">
+    <title>Todos</title>
+</head>
+<body>
+    <div class="loading">
+        <i class="fa fa-spinner fa-spin"></i>
+    </div>
+    <div class="container hide">
+        
+        <div class="search">
+            <input type="text" id="pesquisa" placeholder="Pesquise aqui"/>
+            <button id="search"><i class="fas fa-search"></i></button>
+        </div>
+        <ul class="todos">
+        </ul>
+        <nav class="paginador">
+            <button id="nxt">Próximo</button>
+            <button id="bfr">Anterior</button>
+        </nav>
+    </div>
+</body>
+<script src='./js/todos.js'></script>
+</html>
